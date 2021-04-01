@@ -1,0 +1,41 @@
+.center-block {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+ }
+
+ .bio{
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     margin-top: 10%;
+ }
+
+ .about-content{
+     margin-top: 5%;
+ }
+ .smaller-photo{
+    display: none;
+}
+
+
+ @media (max-width: 540px) {
+    .center-block{
+        display: none;
+    }
+    .smaller-photo{
+        display: block;
+        margin-left: 80px;
+    }
+    .bio{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        margin-left: 17px;
+    }
+    .about-content{
+        width: 350px
+    }
+  }
+
+  

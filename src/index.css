@@ -1,0 +1,22 @@
+body {
+  background-image: url("./beach.png");
+  background-size: cover;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (max-width: 768px) {
+  body{
+  background-image: url("./beach-tab.png");
+  }
+}
+
+@media (max-width: 540px) {
+  body{
+  background-image: url("./beach-phone.png");
+  }
+}

@@ -1,0 +1,13 @@
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 135%;
+}
+
+@media (max-width: 540px) {
+    .footer{
+        margin-top: 75%;
+        font-size: 12px;
+    }
+  }
